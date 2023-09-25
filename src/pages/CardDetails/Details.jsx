@@ -40,7 +40,7 @@ const Details = ({ card }) => {
 
   return (
     <div>
-      <div className=" mt-10 container mx-auto flex justify-center items-center   ">
+      <div className=" mt-10  container mx-auto flex justify-center items-center   ">
         <div className="  flex-1 card card-compact  bg-base-100 shadow-xl">
           <div className="relative">
             <img className="w-full" src={img} alt="" />

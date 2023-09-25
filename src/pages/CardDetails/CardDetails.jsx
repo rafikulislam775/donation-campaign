@@ -14,13 +14,7 @@ const CardDetails = () => {
   }, [cards, intId]);
   console.log(card);
 
-  return (
-    <div>
-      {
-        <Details card = {card} ></Details>
-      }
-    </div>
-  );
+  return <div >{<Details card={card}></Details>}</div>;
 };
 
 export default CardDetails;

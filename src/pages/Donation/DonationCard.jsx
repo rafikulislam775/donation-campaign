@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const DonationCard = ({ card }) => {
   const {
     id,
@@ -44,9 +46,11 @@ const DonationCard = ({ card }) => {
             $ {price}
           </p>
           <a className="inline-block" href="#">
-            <button className="btn bg-red-500 text-white" type="button">
-              View Details
-            </button>
+            <NavLink to={`/cardDetails/${id}`}>
+              <button className="btn bg-red-500 text-white" type="button">
+                View Details
+              </button>
+            </NavLink>
           </a>
         </div>
       </div>
