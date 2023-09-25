@@ -38,7 +38,7 @@
   {
     "id": 4,
     "img": "https://i.ibb.co/PTbNJM1/Food.png",
-    "title": "Nutritious Food Program",
+    "title": "Nutritious Food ",
     "category": "Food",
     "category_bg_color": "#f0a892",
     "card_bg_color": "#F8D7DA",
@@ -86,7 +86,7 @@
   {
     "id": 8,
     "img": "https://i.ibb.co/gMpYkb8/Health.png",
-    "title": "Safe Water for Communities",
+    "title": "Safe Water ",
     "category": "Health",
     "category_bg_color": "#94CBF6",
     "card_bg_color": "#D9E5FF",
@@ -98,7 +98,7 @@
   {
     "id": 9,
     "img": "https://i.ibb.co/mX5qfNm/Education.png",
-    "title": "Empowerment Through Education",
+    "title": "Empowerment Through",
     "category": "Education",
     "category_bg_color": "#FFC3C5",
     "card_bg_color": "#FFE3E4",
