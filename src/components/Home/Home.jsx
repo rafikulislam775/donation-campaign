@@ -1,7 +1,11 @@
+import Banner from "../../pages/Banner/Banner";
+
 const Home = () => {
   return (
     <div>
-      <h2>form home</h2>
+      <div>
+        <Banner></Banner>
+      </div>
     </div>
   );
 };
