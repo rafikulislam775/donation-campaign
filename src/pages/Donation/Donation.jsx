@@ -42,9 +42,12 @@ const Donation = () => {
               <div className="flex justify-center my-10">
                 <button
                   onClick={() => setIsShow(!isShow)}
-                  className="btn px-10 bg-[#009444] text-white "
+                  className={`${
+                    !isShow ? "btn px-10 bg-[#009444] text-white " : "hidden"
+                  }`}
                 >
-                  {isShow ? "See Less" : "See More"}
+                  See all
+                  {/* {isShow ? "See Less" : "See More"} */}
                 </button>
               </div>
             )}
