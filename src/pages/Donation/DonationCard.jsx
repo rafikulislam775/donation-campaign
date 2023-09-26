@@ -10,8 +10,12 @@ const DonationCard = ({ card }) => {
     category_bg_color,
     card_bg_color,
     text_color,
+    text_button_bg_color,
   } = card;
   console.log(card);
+  const btnBg = {
+    backgroundColor: text_button_bg_color,
+  };
   const cardBg = {
     backgroundColor: card_bg_color,
   };
@@ -47,7 +51,7 @@ const DonationCard = ({ card }) => {
           </p>
           <a className="inline-block" href="#">
             <NavLink to={`/cardDetails/${id}`}>
-              <button className="btn bg-red-500 text-white" type="button">
+              <button className="btn  text-white" type="button" style={btnBg}>
                 View Details
               </button>
             </NavLink>

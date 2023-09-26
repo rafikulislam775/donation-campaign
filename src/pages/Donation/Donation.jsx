@@ -30,7 +30,9 @@ const Donation = () => {
             <div className="container m-auto mt-10 grid grid-cols-1 md:grid-cols-2 gap-5">
               {isShow
                 ? donated.map((card, index) => (
-                    <DonationCard key={index} card={card}></DonationCard>
+                    <div key={index}>
+                      <DonationCard card={card}></DonationCard>
+                    </div>
                   ))
                 : donated
                     .slice(0, 4)

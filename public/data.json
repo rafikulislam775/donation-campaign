@@ -18,7 +18,7 @@
     "category": "Education",
     "category_bg_color": "#FFC3C5",
     "card_bg_color": "#FFE3E4",
-    "text_button_bg_color": "#A2DFF7",
+    "text_button_bg_color": "#FF444A",
     "text_color": "#FF444A",
     "description": "Support our mission to provide quality education initiatives for a brighter and more promising future. Your contributions empower students and enable them to reach their full potential.",
     "price": 19.99
@@ -30,7 +30,7 @@
     "category": "Clothing",
     "category_bg_color": "#c2f099",
     "card_bg_color": "#dcedcc",
-    "text_button_bg_color": "#FFEEB6",
+    "text_button_bg_color": "#79C23F",
     "text_color": "#79C23F",
     "description": "Make a difference by donating gently used clothing to those in need. Your generosity provides warmth and comfort to individuals facing challenging circumstances.",
     "price": 29.99
@@ -42,7 +42,7 @@
     "category": "Food",
     "category_bg_color": "#f0a892",
     "card_bg_color": "#F8D7DA",
-    "text_button_bg_color": "#F5C2CC",
+    "text_button_bg_color": "#F87147",
     "text_color": "#F87147",
     "description": "Join us in supporting initiatives that ensure access to nutritious food for all. Together, we can fight hunger and promote a healthier lifestyle.",
     "price": 12.99
@@ -54,7 +54,7 @@
     "category": "Food",
     "category_bg_color": "#f0a892",
     "card_bg_color": "#F8D7DA",
-    "text_button_bg_color": "#F5C2CC",
+    "text_button_bg_color": "#F87147",
     "text_color": "#F87147",
     "description": "Support our initiative to promote healthy eating habits and ensure access to nutritious food for all. Your contributions create a healthier future for everyone.",
     "price": 12.99
@@ -66,7 +66,7 @@
     "category": "Clothing",
     "category_bg_color": "#c2f099",
     "card_bg_color": "#dcedcc",
-    "text_button_bg_color": "#FFEEB6",
+    "text_button_bg_color": "#79C23F",
     "text_color": "#79C23F",
     "description": "Make a positive impact by collecting and distributing warm clothing to those in need. Your kindness provides comfort during cold seasons.",
     "price": 29.99
@@ -78,7 +78,7 @@
     "category": "Education",
     "category_bg_color": "#FFC3C5",
     "card_bg_color": "#FFE3E4",
-    "text_button_bg_color": "#A2DFF7",
+    "text_button_bg_color": "#FF444A",
     "text_color": "#FF444A",
     "description": "Support our scholarship program and help deserving students achieve their dreams. Your contributions pave the way for a brighter future.",
     "price": 19.99
@@ -102,7 +102,7 @@
     "category": "Education",
     "category_bg_color": "#FFC3C5",
     "card_bg_color": "#FFE3E4",
-    "text_button_bg_color": "#A2DFF7",
+    "text_button_bg_color": "#FF444A",
     "text_color": "#FF444A",
     "description": "Empower individuals through quality education and help them unlock their potential. Your support fuels a brighter future for all.",
     "price": 19.99
@@ -114,7 +114,7 @@
     "category": "Clothing",
     "category_bg_color": "#c2f099",
     "card_bg_color": "#dcedcc",
-    "text_button_bg_color": "#FFEEB6",
+    "text_button_bg_color": "#79C23F",
     "text_color": "#79C23F",
     "description": "Make a meaningful impact by collecting and distributing winter clothing to those in need. Your contributions provide warmth and comfort.",
     "price": 29.99
@@ -138,7 +138,7 @@
     "category": "Food",
     "category_bg_color": "#f0a892",
     "card_bg_color": "#F8D7DA",
-    "text_button_bg_color": "#F5C2CC",
+    "text_button_bg_color": "#F87147",
     "text_color": "#F87147",
     "description": "Join us in promoting food security and ensuring access to nutritious meals for all. Together, we can combat hunger and promote well-being.",
     "price": 12.99
