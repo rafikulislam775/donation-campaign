@@ -3,8 +3,9 @@ const Banner = () => {
     <div>
       <div className="hero">
         <img
-          className="hero h-[70vh] opacity-5 "
-          src="https://i.ibb.co/8mktLm8/donation.jpg"
+          className="hero h-[70vh] opacity-10 "
+          // src="https://i.ibb.co/8mktLm8/donation.jpg"
+          src="https://i.ibb.co/x1KRTKb/Rectangle-4281.png?fbclid=IwAR0q_Uj_fM6CYUO3uTI87iSBIL0oA3JoP9QPuy7ik-s1LeT2RgF4aZRd8iM"
           alt=""
         />
         <div className="hero-overlay  "></div>

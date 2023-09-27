@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import swal from "sweetalert";
 const Details = ({ card }) => {
   const { id, img, description, title, price } = card;
@@ -34,9 +35,9 @@ const Details = ({ card }) => {
         });
       }
     }
-    console.log(addToDonation);
+    // console.log(addToDonation);
   };
-  console.log(card);
+  // console.log(card);
 
   return (
     <div>
@@ -62,6 +63,10 @@ const Details = ({ card }) => {
       </div>
     </div>
   );
+};
+
+Details.propTypes = {
+  card: PropTypes.object.isRequired,
 };
 
 export default Details;

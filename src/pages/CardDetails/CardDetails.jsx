@@ -12,7 +12,7 @@ const CardDetails = () => {
     const findCard = cards.find((card) => card.id === intId);
     setCard(findCard);
   }, [cards, intId]);
-  console.log(typeof card);
+  // console.log(typeof card);
 
   return <div >{<Details card={card}></Details>}</div>;
 };

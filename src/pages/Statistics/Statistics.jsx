@@ -25,7 +25,7 @@ const Statistics = () => {
       setNoFound(true);
     }
   }, [allData]);
-  console.log(noFound);
+  // console.log(noFound);
 
   const data = [
     ["Task", "Donation pie chart"],
