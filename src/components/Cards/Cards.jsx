@@ -10,7 +10,8 @@ const Cards = ({ data }) => {
     card_bg_color,
     text_color,
   } = data;
-  console.log(data);
+  // console.log(data);
+
   const cardBg = {
     backgroundColor: card_bg_color,
   };
@@ -30,7 +31,7 @@ const Cards = ({ data }) => {
           style={cardBg}
         >
           <div className="relative mx-4 mt-4  overflow-hidden rounded-xl  bg-clip-border">
-            <img src={img} />
+            <img src={img} className=" h-40 w-80 mx-auto" />
           </div>
           <div className="p-6">
             <span className=" rounded p-1 px-2 font-bold" style={titleBg}>

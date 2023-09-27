@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const DonationCard = ({ card }) => {
   const {
@@ -12,7 +13,7 @@ const DonationCard = ({ card }) => {
     text_color,
     text_button_bg_color,
   } = card;
-  console.log(card);
+  // console.log(card);
   const btnBg = {
     backgroundColor: text_button_bg_color,
   };
@@ -49,17 +50,21 @@ const DonationCard = ({ card }) => {
           >
             $ {price}
           </p>
-          <a className="inline-block" href="#">
+
+          <p className="inline-block">
             <NavLink to={`/cardDetails/${id}`}>
               <button className="btn  text-white" type="button" style={btnBg}>
                 View Details
               </button>
             </NavLink>
-          </a>
+          </p>
         </div>
       </div>
     </div>
   );
 };
 
+DonationCard.propTypes = {
+  card: PropTypes.object.isRequired,
+};
 export default DonationCard;
