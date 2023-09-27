@@ -13,7 +13,11 @@ const myCreatedRoute = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
-        loader: () => fetch("../../public/data.json"),
+        loader: async () => {
+          const res = await fetch("/data.json");
+          const data = await res.json();
+          return data;
+        },
       },
       {
         path: "/donation",
@@ -22,12 +26,20 @@ const myCreatedRoute = createBrowserRouter([
       {
         path: "/statistics",
         element: <Statistics></Statistics>,
-        loader: () => fetch("../../public/data.json"),
+        loader: async () => {
+          const res = await fetch("/data.json");
+          const data = await res.json();
+          return data;
+        },
       },
       {
         path: "cardDetails/:id",
         element: <CardDetails></CardDetails>,
-        loader: () => fetch("../../public/data.json"),
+        loader: async () => {
+          const res = await fetch("/data.json");
+          const data = await res.json();
+          return data;
+        },
       },
     ],
   },

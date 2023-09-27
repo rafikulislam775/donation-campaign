@@ -11,13 +11,13 @@ const Banner = () => {
         <div className="hero-overlay  "></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="">
-            <h1 className="mb-16 text-5xl text-black font-bold">
+            <h1 className="mb-16 text-3xl md:text-5xl text-black font-bold">
               I Grow By Helping People In Need
             </h1>
             <input
               type="text"
               placeholder="Search here...."
-              className=" input input-bordered w-96 "
+              className=" input input-bordered max-w-96 "
             />
             <button className="btn text-white bg-[#FF444A]">Search</button>
           </div>

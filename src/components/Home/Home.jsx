@@ -8,7 +8,7 @@ const Home = () => {
       <Banner></Banner>
       <div className="container m-auto">
         <div className=" mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          {allData.map((data, index) => (
+          {allData?.map((data, index) => (
             <Cards key={index} data={data}></Cards>
           ))}
         </div>

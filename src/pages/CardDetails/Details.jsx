@@ -16,7 +16,7 @@ const Details = ({ card }) => {
         button: "Ok!",
       });
     } else {
-      const isExist = donatedItems.find((data) => data.id === id);
+      const isExist = donatedItems?.find((data) => data.id === id);
       if (!isExist) {
         addToDonation.push(...donatedItems, card);
         localStorage.setItem("donation", JSON.stringify(addToDonation));

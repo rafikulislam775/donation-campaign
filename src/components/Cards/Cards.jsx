@@ -41,7 +41,7 @@ const Cards = ({ data }) => {
             {/* <div
             className="mb-2 flex items-center justify-between "
             style={textColor}
-          >
+          >y
             <p className="block font-sans text-base font-medium leading-relaxed antialiased">
               {title}
             </p>

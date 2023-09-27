@@ -6,15 +6,15 @@ const CardDetails = () => {
   const { id } = useParams();
   const intId = parseInt(id);
   const cards = useLoaderData();
-  const [card, setCard] = useState([]);
+  const [card, setCard] = useState({});
 
   useEffect(() => {
-    const findCard = cards.find((card) => card.id === intId);
+    const findCard = cards?.find((card) => card.id === intId);
     setCard(findCard);
   }, [cards, intId]);
   // console.log(typeof card);
 
-  return <div >{<Details card={card}></Details>}</div>;
+  return <div>{<Details card={card}></Details>}</div>;
 };
 
 export default CardDetails;
