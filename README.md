@@ -1,6 +1,10 @@
-# React + Vite
+# Donation Campaing
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Live Link
+Explore House Trade live at [house-trade.web.app](https://65142221bbea0e1735a6d935--fabulous-crumble-310daa.netlify.app/).
+
+##  Code
+Find the client-side code on GitHub: [client-code](https://github.com/rafikulislam775/donation-campaign).
 
 Currently, two official plugins are available:
 
