@@ -1,7 +1,7 @@
 # Donation Campaing
 
 ## Live Link
-Explore House Trade live at [house-trade.web.app](https://65142221bbea0e1735a6d935--fabulous-crumble-310daa.netlify.app/).
+Explore House Trade live at [Donation Campaing](https://65142221bbea0e1735a6d935--fabulous-crumble-310daa.netlify.app/).
 
 ##  Code
 Find the client-side code on GitHub: [client-code](https://github.com/rafikulislam775/donation-campaign).
